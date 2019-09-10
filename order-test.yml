@@ -14,5 +14,5 @@ server:
 env:
   testabc
 girl:
-  name: LiLi
-  age: 17
+  name: test
+  age: 16
