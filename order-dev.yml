@@ -12,7 +12,7 @@ spring:
 server:
   port: 8081
 env:
-  testabc
+  dev
 girl:
-  name: Lili
+  name: testaaa
   age: 18
