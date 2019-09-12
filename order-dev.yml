@@ -13,8 +13,8 @@ spring:
     port: 5672
     username: guest
     password: guest    
-server:
-  port: 8081
+#server:
+#   port: 8081
 env:
   dev
 girl:
