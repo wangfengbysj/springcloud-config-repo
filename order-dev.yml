@@ -18,5 +18,5 @@ spring:
 env:
   dev
 girl:
-  name: wangfeng
-  age: 37
+  name: Lili
+  age: 18
