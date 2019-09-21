@@ -1,15 +1,10 @@
 zuul:
   routes:
-    # /myProduct/product/list -> /product/product/list
     aaaaaa:
       path: /myProduct/**
       serviceId: product
       sensitiveHeaders:
-    #简介写法
-#    product: /myProduct/**
-#   排除某些路由
   ignored-patterns:
-    - /product/product/listForOrder
-    - /myProduct/product/listForOrder
+    - /**/product/listForOrder
 server:
   port: 9000
