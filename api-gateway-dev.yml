@@ -7,7 +7,7 @@ zuul:
       sensitiveHeaders:
     #简介写法
 #    product: /myProduct/**
-   排除某些路由
+#   排除某些路由
   ignored-patterns:
     - /product/product/listForOrder
     - /myProduct/product/listForOrder
