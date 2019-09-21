@@ -4,7 +4,7 @@ zuul:
       path: /aaa/**
       serviceId: product
       sensitiveHeaders:
-  ignored-patterns:
-    - /**/product/listForOrder
+#   ignored-patterns:
+#     - /**/product/listForOrder
 server:
   port: 9000
