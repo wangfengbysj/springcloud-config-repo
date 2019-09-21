@@ -9,7 +9,7 @@ zuul:
 #    product: /myProduct/**
 #   排除某些路由
   ignored-patterns:
-    - /product/product/listForOrder
+#     - /product/product/listForOrder
     - /myProduct/product/listForOrder
 server:
   port: 9000
