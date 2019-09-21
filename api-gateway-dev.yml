@@ -4,8 +4,8 @@ zuul:
       path: /abc/**
       serviceId: product
       sensitiveHeaders:
-  ignored-patterns:
-    - /**/product/listForOrder
+#   ignored-patterns:
+#     - /**/product/listForOrder
 spring:
   application:
     name: api-gateway
