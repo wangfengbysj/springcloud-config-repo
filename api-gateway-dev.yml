@@ -10,3 +10,5 @@ zuul:
    排除某些路由
   ignored-patterns:
     - /**/product/listForOrder
+server:
+  port: 9000
