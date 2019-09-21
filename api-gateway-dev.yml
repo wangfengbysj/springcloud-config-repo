@@ -1,9 +1,11 @@
 zuul:
   routes:
     aaaaa:
-      path: /abc/**
+      path: /myProduct/**
       serviceId: product
       sensitiveHeaders:
+  ignored-patterns:
+    - /myProduct/product/listForOrder
 spring:
   application:
     name: api-gateway
