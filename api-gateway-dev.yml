@@ -8,8 +8,8 @@ zuul:
     #简介写法
 #    product: /myProduct/**
 #   排除某些路由
-#   ignored-patterns:
-#     - /product/product/listForOrder
-#     - /myProduct/product/listForOrder
+  ignored-patterns:
+    - /product/product/listForOrder
+    - /myProduct/product/listForOrder
 server:
   port: 9000
