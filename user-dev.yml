@@ -6,11 +6,6 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: admin
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
   jpa:
     show-sql: true
   redis:
